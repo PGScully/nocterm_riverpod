@@ -17,7 +17,9 @@ void main() {
             container: container,
             child: Builder(
               builder: (context) {
-                final ProviderContainer resolved = RiverpodScope.containerOf(context);
+                final ProviderContainer resolved = RiverpodScope.containerOf(
+                  context,
+                );
                 expect(resolved, isNotNull);
                 return Container();
               },

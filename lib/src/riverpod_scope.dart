@@ -21,8 +21,8 @@ class RiverpodScope extends InheritedComponent {
 
   /// Returns the [ProviderContainer] from the nearest ancestor [RiverpodScope].
   static ProviderContainer containerOf(BuildContext context) {
-    final RiverpodScope? scope =
-        context.dependOnInheritedComponentOfExactType<RiverpodScope>();
+    final RiverpodScope? scope = context
+        .dependOnInheritedComponentOfExactType<RiverpodScope>();
     assert(scope != null, 'No RiverpodScope found in context');
     return scope!.container;
   }

@@ -81,5 +81,6 @@ class _RiverpodSelectorState<T, R> extends State<RiverpodSelector<T, R>> {
   }
 
   @override
-  Component build(BuildContext context) => component.builder(context, _selected);
+  Component build(BuildContext context) =>
+      component.builder(context, _selected);
 }
