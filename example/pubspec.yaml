@@ -1,0 +1,11 @@
+name: example
+publish_to: none
+
+environment:
+  sdk: "^3.12.0"
+
+dependencies:
+  nocterm: ">=0.7.0 <1.0.0"
+  nocterm_riverpod:
+    path: ..
+  riverpod: ">=3.0.0 <4.0.0"

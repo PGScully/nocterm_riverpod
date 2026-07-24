@@ -1,0 +1,16 @@
+name: nocterm_riverpod
+description: Riverpod state management bindings for nocterm terminal UIs.
+version: 0.1.0
+repository: https://github.com/pgscully/nocterm_riverpod
+issue_tracker: https://github.com/pgscully/nocterm_riverpod/issues
+
+environment:
+  sdk: "^3.12.0"
+
+dependencies:
+  meta: ">=1.11.0 <2.0.0"
+  nocterm: ">=0.7.0 <1.0.0"
+  riverpod: ">=3.0.0 <4.0.0"
+
+dev_dependencies:
+  test: ^1.31.0
